@@ -6,7 +6,9 @@
 from glob import glob
 import os
 
-from aetherpy import logger
+#from aetherpy import logger
+import logging
+logger = logging.getLogger(__name__)
 
 
 def get_filelist(file_dir, file_type='ALL', file_ext="bin"):

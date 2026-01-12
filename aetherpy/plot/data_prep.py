@@ -6,7 +6,9 @@
 
 import numpy as np
 
-from aetherpy import logger
+#from aetherpy import logger
+import logging
+logger = logging.getLogger(__name__)
 
 
 def get_cut_index(lons, lats, alts, cut_val, isgrid=False, cut_coord='alt'):

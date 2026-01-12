@@ -14,7 +14,9 @@ from struct import unpack
 import re
 
 from aetherpy.utils.time_conversion import epoch_to_datetime
-from aetherpy import logger
+#from aetherpy import logger
+import logging
+logger = logging.getLogger(__name__)
 
 
 class DataArray(np.ndarray):
